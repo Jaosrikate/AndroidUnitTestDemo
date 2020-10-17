@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Android Unit Test</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="select">เลือก</string>
+    <string name="select_all">เลือกทั้งหมด</string>
+    <string name="copy">คัดลอก</string>
+    <string name="paste">วาง</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="naid_error">หมายเลขบัตรประชาชนไม่ถูกต้อง</string>
+    <string name="please_fill_citizen_id">กรุณาระบุหมายเลขบัตรประชาชน</string>
+    <string name="mobile_no_error">หมายเลขโทรศัพท์มือถือไม่ถูกต้อง</string>
+    <string name="please_fill_mobile">กรุณาระบุหมายเลขโทรศัพท์มือถือ</string>
+</resources>

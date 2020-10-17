@@ -1,0 +1,244 @@
+{
+   "bankList":[
+      {
+         "bankCode":"067",
+         "nameTH":"ทิสโก้",
+         "nameEN":"TISCO",
+         "length":14,
+         "format":"####-###-######-#",
+         "MaskAccount":"xxxx-xxx-xx1234-x",
+         "bankNameEN":"TISCO BANK PUBLIC COMPANY LIMITED",
+         "bankNameTH":"ธนาคารทิสโก้ จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"004",
+         "nameTH":"กสิกรไทย",
+         "nameEN":"KBANK",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"Kasikorn bank public company ltd",
+         "bankNameTH":"ธนาคารกสิกรไทย จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"014",
+         "nameTH":"ไทยพาณิชย์",
+         "nameEN":"SCB",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"SIAM COMMERCIAL BANK PUBLIC COMPANY LTD.",
+         "bankNameTH":"ธนาคารไทยพาณิชย์ จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"011",
+         "nameTH":"ทหารไทย",
+         "nameEN":"TMB",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"TMB BANK PUBLIC COMPANY LIMITED",
+         "bankNameTH":"ธนาคารทหารไทย จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"002",
+         "nameTH":"กรุงเทพ",
+         "nameEN":"BBL",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"Bangkok Bank Public Company Ltd",
+         "bankNameTH":"ธนาคารกรุงเทพ จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"006",
+         "nameTH":"กรุงไทย",
+         "nameEN":"KTB",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"Krung thai bank public company ltd",
+         "bankNameTH":"ธนาคารกรุงไทย จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"025",
+         "nameTH":"กรุงศรีอยุธยา",
+         "nameEN":"BAY",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"Bank of Ayutthaya public company ltd",
+         "bankNameTH":"ธนาคารกรุงศรีอยุธยา จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"034",
+         "nameTH":" ธ.ก.ส.",
+         "nameEN":"BAAC",
+         "length":12,
+         "format":"###-#-#####-###",
+         "MaskAccount":"xxx-x-xxx12-34x",
+         "bankNameEN":"Bank for Agriculture and Agricultural Cooperatives",
+         "bankNameTH":"ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร"
+      },
+      {
+         "bankCode":"022",
+         "nameTH":"ซีไอเอ็มบี ไทย",
+         "nameEN":"CIMBT",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"CIMB THAI BANK PUPBLIC COMPANY LTD",
+         "bankNameTH":"ธนาคารซีไอเอ็มบี ไทย จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"017",
+         "nameTH":"ซิตี้แบงก์",
+         "nameEN":"CITI",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"Citibank",
+         "bankNameTH":"ธนาคารซิตี้แบงก์"
+      },
+      {
+         "bankCode":"032",
+         "nameTH":"ดอยซ์แบงก์",
+         "nameEN":"DEUTSCHE",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"DEUTSCHE BANK AG.",
+         "bankNameTH":"ธนาคารดอยซ์แบงก์"
+      },
+      {
+         "bankCode":"033",
+         "nameTH":"อาคารสงเคราะห์",
+         "nameEN":"GHB",
+         "length":12,
+         "format":"###-#-#####-###",
+         "MaskAccount":"xxx-x-xxx12-34x",
+         "bankNameEN":"Government Housing Bank",
+         "bankNameTH":"ธนาคารอาคารสงเคราะห์"
+      },
+      {
+         "bankCode":"030",
+         "nameTH":"ออมสิน",
+         "nameEN":"GSB",
+         "length":12,
+         "format":"###-#-#####-###",
+         "MaskAccount":"xxx-x-xxx12-34x",
+         "bankNameEN":"Government Saving Bank",
+         "bankNameTH":"ธนาคารออมสิน"
+      },
+      {
+         "bankCode":"070",
+         "nameTH":"ไอซีบีซี (ไทย)",
+         "nameEN":"ICBC",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"Industrial and Commercial Bank of China (Thai) Public Company Limited.",
+         "bankNameTH":"ธนาคารไอซีบีซี (ไทย) จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"066",
+         "nameTH":"อิสลามแห่งประเทศไทย",
+         "nameEN":"ISBT",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"Islamic Bank of Thailand",
+         "bankNameTH":"ธนาคารอิสลามแห่งประเทศไทย"
+      },
+      {
+         "bankCode":"069",
+         "nameTH":"เกียรตินาคิน",
+         "nameEN":"KK",
+         "length":14,
+         "format":"####-###-######-#",
+         "MaskAccount":"xxxx-xxx-xx1234-x",
+         "bankNameEN":"Kiatnakin bank public company limited",
+         "bankNameTH":"ธนาคารเกียรตินาคิน จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"073",
+         "nameTH":"แลนด์ แอนด์ เฮ้าส์",
+         "nameEN":"LHBANK",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"Land and Houses Public Company Limited",
+         "bankNameTH":"ธนาคารแลนด์ แอนด์ เฮ้าส์ เพื่อรายย่อย จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"039",
+         "nameTH":"มิซูโฮ",
+         "nameEN":"MIZUHO",
+         "length":11,
+         "format":"###-#-#####-##",
+         "MaskAccount":"xxx-x-xx123-4x",
+         "bankNameEN":"Mizuho Bank, Ltd. Bangkok Branch",
+         "bankNameTH":"ธนาคารมิซูโฮ จำกัด สาขากรุงเทพฯ"
+      },
+      {
+         "bankCode":"020",
+         "nameTH":"สแตนดาร์ดชาร์เตอร์ด (ไทย)",
+         "nameEN":"SCBT",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"Standard Chartered Bank (Thai) Public Co.,LTD.",
+         "bankNameTH":"ธนาคารสแตนดาร์ดชาร์เตอร์ด (ไทย) จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"080",
+         "nameTH":"ซูมิโตโม มิตซุย",
+         "nameEN":"SMBC",
+         "length":12,
+         "format":"###-#-#####-###",
+         "MaskAccount":"xxx-x-xxx12-34x",
+         "bankNameEN":"Sumitomo Mitsui Banking Corporation",
+         "bankNameTH":"ธนาคารซูมิโตโม มิตซุย แบงกิ้ง คอร์ปอเรชั่น"
+      },
+      {
+         "bankCode":"065",
+         "nameTH":"ธนชาต",
+         "nameEN":"TBANK",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"THANACHART BANK PUBLIC COMPANY LTD.",
+         "bankNameTH":"ธนาคารธนชาต จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"031",
+         "nameTH":"ฮ่องกงและเซี่ยงไฮ้",
+         "nameEN":"HSBC",
+         "length":12,
+         "format":"###-#-#####-###",
+         "MaskAccount":"xxx-x-xxx12-34x",
+         "bankNameEN":"The Hongkong and Shanghai Banking Corporation Limited",
+         "bankNameTH":"ธนาคารฮ่องกงและเซี่ยงไฮ้แบงกิ้งคอร์ปอเรชั่น จำกัด"
+      },
+      {
+         "bankCode":"071",
+         "nameTH":"ไทยเครดิต",
+         "nameEN":"TCR",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"The Thai Credit Retail Bank Public Company Limited",
+         "bankNameTH":"ธนาคารไทยเครดิต เพื่อรายย่อย จำกัด (มหาชน)"
+      },
+      {
+         "bankCode":"024",
+         "nameTH":"ยูโอบี",
+         "nameEN":"UOBT",
+         "length":10,
+         "format":"###-#-#####-#",
+         "MaskAccount":"xxx-x-x1234-x",
+         "bankNameEN":"UNITED OVERSEAS BANK (THAI) PUBLIC COMPANY LIMITED",
+         "bankNameTH":"ธนาคารยูโอบี จำกัด (มหาชน)"
+      }
+   ]
+}

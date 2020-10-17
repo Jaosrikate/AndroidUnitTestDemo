@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="colorPrimary">#1369b0</color>
+    <color name="colorPrimaryDark">#1369b0</color>
+    <color name="colorAccent">#804490d1</color>
+    <color name="dark_coral">#ce4e44</color>
+    <color name="dark_coral_3">#08ce4e44</color>
+    <color name="cornflower_blue_50">#804490d1</color>
+    <color name="pastel_red">#e2564e</color>
+    <color name="dark">#293845</color>
+    <color name="dark_coral_5">#FDF5F4</color>
+    <color name="red">#d32f2f</color>
+    <color name="nice_blue">#1369b0</color>
+    <color name="button_gray">#e6e6e6</color>
+    <color name="warm_grey_two">#979797</color>
+</resources>

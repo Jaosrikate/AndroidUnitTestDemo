@@ -18,6 +18,7 @@ import com.srikate.unittestexample.utils.PromptpayNoUtilViewModel
 class AppMobileNoEditText : BaseAppEditText {
 
     lateinit var mListener: AppMobileNoEditTextListener
+    var isDelete = false
 
     interface AppMobileNoEditTextListener {
         fun onMobileNoError()
@@ -59,9 +60,6 @@ class AppMobileNoEditText : BaseAppEditText {
                 count: Int,
                 after: Int
             ) {
-                if (::mListener.isInitialized) {
-                    mListener.onMobileNoValid()
-                }
             }
 
             override fun onTextChanged(
@@ -71,6 +69,10 @@ class AppMobileNoEditText : BaseAppEditText {
                 count: Int
             ) {
                 error = null
+                isDelete = before > count
+                if (isDelete) {
+                    validateMobileNo()
+                }
             }
 
             override fun afterTextChanged(s: Editable) {}
@@ -108,7 +110,7 @@ class AppMobileNoEditText : BaseAppEditText {
         }
     }
 
-    private fun validateMobileNo() : Boolean {
+    fun validateMobileNo(): Boolean {
         val input = text.toString().replace("-", "")
         if (::mListener.isInitialized) {
             return if (PromptpayNoUtilViewModel.validateMobileNo(input)) {

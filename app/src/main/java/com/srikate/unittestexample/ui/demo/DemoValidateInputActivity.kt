@@ -3,35 +3,48 @@ package com.srikate.unittestexample.ui.demo
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.srikate.unittestexample.R
 import com.srikate.unittestexample.ui.widget.AppButtonNext
 import com.srikate.unittestexample.ui.widget.AppMobileNoEditText
 import com.srikate.unittestexample.ui.widget.AppNAIDEditText
 
-class DemoValidateInputActivity : AppCompatActivity(), AppNAIDEditText.AppNAIDEditTextListener, AppMobileNoEditText.AppMobileNoEditTextListener{
-    lateinit var edtCitizenId : AppNAIDEditText
-    lateinit var edtMobileNo : AppMobileNoEditText
-    lateinit var tvIDNoError : TextView
-    lateinit var tvMobileNoError : TextView
-    lateinit var btLogin : AppButtonNext
+class DemoValidateInputActivity : AppCompatActivity(), AppNAIDEditText.AppNAIDEditTextListener,
+    AppMobileNoEditText.AppMobileNoEditTextListener {
+    private lateinit var edtCitizenId: AppNAIDEditText
+    private lateinit var edtMobileNo: AppMobileNoEditText
+    private lateinit var tvIDNoError: TextView
+    private lateinit var tvMobileNoError: TextView
+    private lateinit var btLogin: AppButtonNext
 
-    var isNAIDValid = false
-    var isMobileNoValid = false
+    private var isNAIDValid = false
+    private var isMobileNoValid = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_demo_validate_input)
 
-         edtCitizenId = findViewById(R.id.edtCitizenID)
-         edtMobileNo = findViewById(R.id.edtMobileNo)
-         tvIDNoError = findViewById(R.id.tvIDNoError)
-         tvMobileNoError = findViewById(R.id.tvMobileNoError)
-         btLogin = findViewById(R.id.btLogin)
+        edtCitizenId = findViewById(R.id.edtCitizenID)
+        edtMobileNo = findViewById(R.id.edtMobileNo)
+        tvIDNoError = findViewById(R.id.tvIDNoError)
+        tvMobileNoError = findViewById(R.id.tvMobileNoError)
+        btLogin = findViewById(R.id.btLogin)
+        btLogin.isEnabled = false
 
         edtCitizenId.setListener(this)
         edtMobileNo.setListener(this)
+
+        btLogin.setOnClickListener {
+            if (validateData()) {
+                Toast.makeText(
+                    this,
+                    "Hello , " + edtCitizenId.text,
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+        }
     }
 
     override fun onNAIDError() {
@@ -75,7 +88,7 @@ class DemoValidateInputActivity : AppCompatActivity(), AppNAIDEditText.AppNAIDEd
     }
 
     private fun validateData(): Boolean {
-        val isDataValid = isNAIDValid && isMobileNoValid && edtCitizenId.validateNAID()
+        val isDataValid = isNAIDValid && isMobileNoValid
         btLogin.isEnabled = isDataValid
         return isDataValid
     }

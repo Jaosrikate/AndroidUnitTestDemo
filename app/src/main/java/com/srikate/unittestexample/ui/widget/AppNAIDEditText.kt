@@ -16,6 +16,7 @@ import com.srikate.unittestexample.utils.PromptpayNoUtilViewModel
 class AppNAIDEditText : BaseAppEditText {
 
     lateinit var mListener: AppNAIDEditTextListener
+    var isDelete = false
 
     interface AppNAIDEditTextListener {
         fun onNAIDError()
@@ -57,9 +58,6 @@ class AppNAIDEditText : BaseAppEditText {
                 count: Int,
                 after: Int
             ) {
-                if (::mListener.isInitialized) {
-                    mListener.onNAIDValid()
-                }
             }
 
             override fun onTextChanged(
@@ -69,6 +67,10 @@ class AppNAIDEditText : BaseAppEditText {
                 count: Int
             ) {
                 error = null
+                isDelete = before > count
+                if(isDelete){
+                    validateNAID()
+                }
             }
 
             override fun afterTextChanged(s: Editable) {}
@@ -112,11 +114,18 @@ class AppNAIDEditText : BaseAppEditText {
 
     fun validateNAID(): Boolean {
         val input = text.toString().replace("-", "")
-        return when {
-            PromptpayNoUtilViewModel.validateNAIDNo(input) -> true
-            input.isNullOrEmpty() -> false
-            else -> false
+        if (::mListener.isInitialized) {
+            return if (PromptpayNoUtilViewModel.validateNAIDNo(input)) {
+                error = null
+                mListener.onNAIDValid()
+                true
+            } else {
+                error = AppConstant.ERROR
+                mListener.onNAIDError()
+                false
+            }
         }
+        return false
     }
 
 
